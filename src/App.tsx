@@ -1,15 +1,10 @@
 import React, { ReactNode } from 'react';
+import Reactotron from 'reactotron-react-native'
 import {
     SafeAreaView,
-    StyleSheet,
     Text,
     StatusBar,
 } from 'react-native';
-
-import {
-    Colors
-} from 'react-native/Libraries/NewAppScreen';
-
 const App: () => ReactNode = () => {
     return (
         <>
