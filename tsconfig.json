@@ -34,6 +34,9 @@
         "src/**/*.tsx",
         "src/**/*.json"
     ],
+    "paths": {
+        "@constants": ["./src/helpers/constants.ts"],       
+    },
     "exclude": [
         "node_modules",
         "babel.config.js",
