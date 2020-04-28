@@ -7,11 +7,12 @@ export const style = StyleSheet.create({
         height: 100,
         backgroundColor: primary,
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        flexDirection: 'row'
     },
     title: {
         color: _default,
-        marginTop: 20,
+        marginTop: 10,
         fontSize: 20
     }
 });

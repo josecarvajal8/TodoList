@@ -1,2 +1,3 @@
 import NavBar from './navbar/navBar.component';
-export { NavBar };
+import Input from './input/input.component'
+export { NavBar, Input };
