@@ -1,17 +1,10 @@
 import React, { ReactNode } from 'react';
-import Reactotron from 'reactotron-react-native'
-import {
-    SafeAreaView,
-    Text,
-    StatusBar,
-} from 'react-native';
+import { Home } from './components';
+
 const App: () => ReactNode = () => {
     return (
         <>
-            <StatusBar barStyle="dark-content" />
-            <SafeAreaView>
-                <Text>{'Hello world'}</Text>
-            </SafeAreaView>
+            <Home />
         </>
     );
 };
