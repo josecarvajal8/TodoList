@@ -9,6 +9,10 @@ export const style = StyleSheet.create({
         marginTop: 20,
         shadowColor: COLORS.black_shadow,
         shadowOpacity: 0.4,
+        shadowOffset: {
+            width: 5,
+            height: 5
+        },
         shadowRadius: 4,
         flexDirection: 'row'
     },
