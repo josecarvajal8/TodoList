@@ -7,7 +7,7 @@ export default function Input(props: IPropsInput) {
         <>
             <TextInput style={{ ...style.container, ..._style }}
                 placeholder={placeHolder}
-                onChange={(evt) => onChange(evt)}
+                onChangeText={text => onChange(text)}
                 value={value}>
             </TextInput>
         </>
